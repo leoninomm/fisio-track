@@ -27,7 +27,7 @@ export default function TabLayout() {
         }),
       }}>
       <Tabs.Screen
-        name="AddDates"
+        name="index"
         options={{
           title: 'Datas',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="pencil.and.scribble" color={color} />,
